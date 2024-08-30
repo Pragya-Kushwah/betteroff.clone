@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: serif;
+    background-color: #e5e7df;
+}
+nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  /*  background-color: red;*/
+}
+nav a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+nav div{
+display: flex;
+gap: 20px;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+}
+.content{
+    width: 100vw;
+    display: flex;
+}
+.content .left{
+    width: 60%;
+}
+.content .left p{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 10px;
+}
+.content .left button{
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 10px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.25s;
+}
+.content .left button:hover{
+    border-bottom: 2px solid black;
+}
+.content.right{
+    width: 60%;
+    font-size: 40px;
+    font-weight: 800;
+}
+.page1 marquee{
+     display: flex;
+     align-items: center;
+     font-size: 300px;
+     font-weight: 900;
+}
+.page1 marquee img{
+    height: 280px;
+    width: 400px;
+}
+.page2{
+    width: 100%;
+    padding:5px 10px;
+}
+.page2 h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.page2 h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding:20px 0;
+}
+.page2 hr{
+    color: grey;
+}
